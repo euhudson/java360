@@ -1,0 +1,16 @@
+public class AlgoritmoDoisAL {
+    void main (){
+        IO.println("Quem ousa entrar na Sala do eco?");
+        String nome = IO.readln();
+        IO.println("Ah... " + nome + ". Eu esperava por você.");
+        
+        IO.println("Quantos algoritmos você venceu?");
+        String resposta = IO.readln();
+        int total = Integer.parseInt(resposta);
+        IO.println("Só mais " + (360 - total ) + " pela frente.");
+
+        //int idade = Integer.parseInt(texto);
+        //double nota = Double.parseDouble(texto);    
+    }
+}
+
