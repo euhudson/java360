@@ -5,10 +5,10 @@ public class AlgoritmoOito {
         int valor2 = Integer.parseInt(IO.readln("Digite o segundo valor: "));
 
         // Realiza a soma
-        int soma = valor1 + valor2;
+        int soma = valor1 * valor2;
 
         // Imprime o resultado
-        IO.println("Produto: " + soma );
+        IO.println("Este é o produto dos dois números: " + soma );
 
 
 
