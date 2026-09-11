@@ -6,7 +6,7 @@ public class AlgoritmoNove {
     // divisão do numero real
     int resultado = numeroReal / 3;
 
-    IO.println("A terça parte do numero é:" + resultado);
+    IO.println("A terça parte do numero é: " + resultado);
 
 
 
